@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { 
+    font-family: 'Texgy';  
+    src: url('TexgyrepagellaRegular-en3n.otf') format('opentype'); 
+}
+@font-face { 
+    font-family: 'Le Jour';  
+    src: url('LeJourSerif-OVZMo.otf') format('opentype'); 
+}
+
+body{
+    background-color: #e6dec7;
+}
+
+.title{
+    font-family: "Le Jour";}
+
+.z{
+    z-index: 100;
+}
+.text{
+    font-family: "Texgy";
+}
+
+
+
+.bg-p{
+  width: 670px;
+}
+
+
+html{
+  scrollbar-width: normal;
+  scrollbar-color: black white;
+}
+html::-webkit-scrollbar{
+  width: 2vw;
+}
+html::-webkit-scrollbar-thumb{
+  background-color: black;
+}
+html::-webkit-scrollbar-track{
+  background-color: white;
+}
+.link{
+  text-decoration: underline;
+}
+.nav-link:hover{
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    body{
+      min-width: 170%;
+    }
+  
+}
